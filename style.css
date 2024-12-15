@@ -51,6 +51,8 @@ footer {
 
     color: white;
     text-align: center;
+
+    padding: 8px;
 }
 
 footer > p {
