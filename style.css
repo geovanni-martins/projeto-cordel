@@ -40,3 +40,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+main > p {
+    font-family: "Sriracha", cursive;
+
+}
