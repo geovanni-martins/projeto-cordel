@@ -45,3 +45,14 @@ main > p {
     font-family: "Sriracha", cursive;
 
 }
+
+footer {
+    background-color: black;
+
+    color: white;
+    text-align: center;
+}
+
+footer > p {
+    margin: 0px;
+}
