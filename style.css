@@ -48,9 +48,36 @@ a:hover {
     text-decoration: underline;
 }
 
+section.normal {
+    background-color: white;
+    
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(68, 68, 68);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+}
+
+section.imagem#background01 {
+    background-image: url(src/img/background001.jpg);
+    background-position: right center;
+}
+
+section.imagem#background02 {
+    background-image: url(src/img/background002.jpg);
+}
+
 section > p {
     font-family: "Sriracha", cursive;
+    font-size: 4vw;
+    line-height: 8vw;
 
+    padding: 30px;
 }
 
 footer {
