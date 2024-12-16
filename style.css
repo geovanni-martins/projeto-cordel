@@ -27,7 +27,7 @@ header {
 header > h1 {
     font-family: "Passion One", sans-serif;
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 10vw;
     font-variant: small-caps;
 
     padding-top: 50px;
@@ -48,6 +48,12 @@ a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
 section.normal {
     background-color: white;
     
@@ -63,6 +69,11 @@ section.imagem {
     color: white;
 }
 
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.355);
+    display: inline-block;
+}
+
 section.imagem#background01 {
     background-image: url(src/img/background001.jpg);
     background-position: right center;
@@ -75,9 +86,7 @@ section.imagem#background02 {
 section > p {
     font-family: "Sriracha", cursive;
     font-size: 4vw;
-    line-height: 8vw;
-
-    padding: 30px;
+    line-height: 2em;
 }
 
 footer {
